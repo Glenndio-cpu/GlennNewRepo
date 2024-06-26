@@ -1,11 +1,10 @@
 import React from "react";
-
+import HomePage from "./Components/Pages/HomePage/index";
+import "./assets/css/style.css"
 const App = () => {
   return (
-    <div>
-      <h2>Hello World</h2>
-    </div>
-  );
-};
+    <HomePage/>
+    
+)};
 
 export default App;
